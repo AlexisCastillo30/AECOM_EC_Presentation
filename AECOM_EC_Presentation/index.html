@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AECOM Digital - Timeline Navigation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Intro screen -->
+    <div class="intro-screen" id="introScreen">
+        <div class="intro-content">
+            <h1 class="intro-logo">AECOM</h1>
+            <p class="intro-subtitle">Engineering Excellence through Digital Innovation</p>
+            <button class="intro-button" onclick="startPresentation()">
+                <span>Start Presentation</span>
+                <i class="fas fa-arrow-right"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Main content (hidden initially) -->
+    <div class="main-content" id="mainContent" style="display: none;">
+        <!-- Home button -->
+        <button class="home-button" onclick="goToIntro()" title="Back to Start">
+            <i class="fas fa-home"></i>
+        </button>
+
+        <!-- Sidebar with timeline -->
+        <div class="timeline-sidebar">
+            <div class="timeline-header">
+                <h1>AECOM <strong>Digital</strong></h1>
+                <p>BIM Automation Solutions</p>
+            </div>
+
+            <div class="timeline">
+                <!-- BEP Checker -->
+                <div class="timeline-item active" data-slide="bep-checker">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2020</div>
+                        <div class="timeline-title">BEP Checker</div>
+                        <div class="timeline-subtitle">Automated Compliance</div>
+                    </div>
+                </div>
+
+                <!-- Architectural Finishes -->
+                <div class="timeline-item" data-slide="arch-finishes">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2021</div>
+                        <div class="timeline-title">Architectural Finishes</div>
+                        <div class="timeline-subtitle">Smart Material Application</div>
+                    </div>
+                </div>
+
+                <!-- Voids -->
+                <div class="timeline-item" data-slide="voids">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2022</div>
+                        <div class="timeline-title">Voids Automation</div>
+                        <div class="timeline-subtitle">Multi-Discipline Coordination</div>
+                    </div>
+                </div>
+
+                <!-- Database Integration -->
+                <div class="timeline-item" data-slide="excel-integration">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2023</div>
+                        <div class="timeline-title">Excel Integration</div>
+                        <div class="timeline-subtitle">Data Management System</div>
+                    </div>
+                </div>
+
+                <!-- Sheet Checker -->
+                <div class="timeline-item" data-slide="sheet-checker">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2023</div>
+                        <div class="timeline-title">Sheet Checker</div>
+                        <div class="timeline-subtitle">Drawing Standards QA</div>
+                    </div>
+                </div>
+
+                <!-- Web Platform -->
+                <div class="timeline-item" data-slide="bep-web">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2024</div>
+                        <div class="timeline-title">BEP Checker Web</div>
+                        <div class="timeline-subtitle">Cloud Infrastructure</div>
+                    </div>
+                </div>
+
+                <!-- Digital Twins -->
+                <div class="timeline-item" data-slide="digital-twins">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2025</div>
+                        <div class="timeline-title">Digital Twins</div>
+                        <div class="timeline-subtitle">IoT Integration Platform</div>
+                    </div>
+                </div>
+
+                <!-- Thank You -->
+                <div class="timeline-item" data-slide="closing">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-title">Thank You</div>
+                        <div class="timeline-subtitle">Contact Information</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Dynamic content area -->
+        <div class="preview-area">
+            <div class="slide-content" id="slideContent">
+                <!-- Content will be loaded dynamically here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
