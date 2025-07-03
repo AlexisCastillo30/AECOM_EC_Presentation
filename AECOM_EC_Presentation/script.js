@@ -28,7 +28,7 @@ const slideContents = {
                     <div class="laptop-base"></div>
                 </div>
                 <div class="content-section">
-                    <h2>BEP Checker</h2>
+                    <h2>BEP Revisor</h2>
                     <h3>Automated Compliance Verification</h3>
                     <p>Tool that automates the verification of BEP (BIM Execution Plan) requirements compliance in Revit models.</p>
                     <ul class="feature-list">
@@ -98,43 +98,60 @@ const slideContents = {
                     <h3>Multi-Discipline Coordination</h3>
                     <p>Automation of void creation and management process between disciplines for MEP coordination.</p>
                     <ul class="feature-list">
-                        <li>Automatic clash detection</li>
+                        <li>Prevent clash conflicts</li>
                         <li>Intelligent void generation</li>
-                        <li>Complete change traceability</li>
-                        <li>Integrated approval workflow</li>
+                        <li>Firestop automated location</li>
+                        <li>Voids for ducts, cabetray, busway and pipes on walls and floors</li>
                     </ul>
                 </div>
             </div>
         `
     },
     'excel-integration': {
-        html: `
-            <div class="slide-layout">
-                <div class="laptop-container">
-                    <div class="laptop">
-                        <div class="laptop-screen">
-                            <video class="laptop-video" controls muted>
-                                <source src="DigitalTwins_Example.mp4" type="video/mp4">
-                                Your browser does not support the video element.
-                            </video>
-                        </div>
+    html: `
+        <div class="slide-layout">
+            <div class="laptop-container">
+                <div class="laptop">
+                    <div class="laptop-screen">
+                        <video class="laptop-video" controls muted>
+                            <source src="DigitalTwins_Example.mp4" type="video/mp4">
+                            Your browser does not support the video element.
+                        </video>
                     </div>
-                    <div class="laptop-base"></div>
                 </div>
-                <div class="content-section">
-                    <h2>Excel Integration</h2>
-                    <h3>Data Management System</h3>
-                    <p>Bi-directional integration between Revit and Excel for efficient project data management.</p>
-                    <ul class="feature-list">
-                        <li>Real-time synchronization</li>
-                        <li>Automatic data validation</li>
-                        <li>Customizable templates</li>
-                        <li>Bulk information export</li>
-                    </ul>
-                </div>
+                <div class="laptop-base"></div>
             </div>
-        `
-    },
+            <div class="content-section">
+                <h2>Dictionary DB</h2>
+                <h3>Data Management System</h3>
+                <p>Bi-directional integration between Revit and Excel for efficient project data management.</p>
+                <ul class="feature-list">
+                    <li>Bulk information database import</li>
+                    <li>Compatible with system families and loadable families</li>
+                    <li>Total control over Revit families information                        
+                        <li>Modify any parameter type:
+                            <ul class="no-checks">
+                                <li>OmniClass Table 21 - Elements</li>
+                                <li>OmniClass Table 22 - Work Results</li>
+                                <li>OmniClass Table 23 - Products</li>
+                                <li>Assembly Code</li>
+                                <li>Keynote</li>
+                                <li>Type/Instance Description</li>
+                                <li>Material properties (kg/ml, density, etc.)</li>
+                                <li>Manufacturer data</li>
+                                <li>Cost information</li>
+                                <li>Custom shared parameters</li>
+                                <li>Project/Global parameters</li>
+                                <li>URL links and specifications</li>
+                            </ul>
+                        </li>
+                    
+                    </li>
+                </ul>
+            </div>
+        </div>
+    `
+},
     'sheet-checker': {
         html: `
             <div class="slide-layout">
@@ -150,13 +167,13 @@ const slideContents = {
                     <div class="laptop-base"></div>
                 </div>
                 <div class="content-section">
-                    <h2>Sheet Checker</h2>
+                    <h2>Sheet Revisor</h2>
                     <h3>Drawing Standards Quality Assurance</h3>
                     <p>Automated verification tool for drawing standards and technical documentation.</p>
                     <ul class="feature-list">
                         <li>CAD standards verification</li>
-                        <li>Common error detection</li>
-                        <li>Compliance reports</li>
+                        <li>Scale Reviewer</li>
+                        <li>Siteplan Checker</li>
                         <li>Batch processing of multiple sheets</li>
                     </ul>
                 </div>

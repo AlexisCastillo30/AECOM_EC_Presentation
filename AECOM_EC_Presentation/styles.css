@@ -529,3 +529,16 @@ body {
         max-width: 300px;
     }
 }
+/* Use normal bullets instead of checks */
+.no-checks {
+    list-style-type: disc;
+}
+
+.no-checks li::before {
+    display: none !important;
+}
+
+.no-checks li {
+    padding-left: 0;
+    list-style-position: inside;
+}
