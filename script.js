@@ -20,7 +20,7 @@ const slideContents = {
                     <div class="laptop">
                         <div class="laptop-screen">
                             <video class="laptop-video" controls muted>
-                                <source src="DigitalTwins_Example.mp4" type="video/mp4">
+                                <source src="videos/ACM_EC_BEP_Revisor.mp4" type="video/mp4">
                                 Your browser does not support the video element.
                             </video>
                         </div>
