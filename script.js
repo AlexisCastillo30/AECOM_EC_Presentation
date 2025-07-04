@@ -20,7 +20,7 @@ const slideContents = {
                     <div class="laptop">
                         <div class="laptop-screen">
                             <video class="laptop-video" controls muted>
-                                <source src="Videos/ACM_EC_BEP_Revisor.mp4" type="video/mp4">
+                                <source src="videos/ACM_EC_BEP_Revisor.mp4" type="video/mp4">
                                 Your browser does not support the video element.
                             </video>
                         </div>
@@ -32,10 +32,10 @@ const slideContents = {
                     <h3>Automated Compliance Verification</h3>
                     <p>Tool that automates the verification of BEP (BIM Execution Plan) requirements compliance in Revit models.</p>
                     <ul class="feature-list">
-                        <li>Automatic parameter verification</li>
+                        <li>Easy BEP customization</li>
                         <li>Detailed report generation</li>
                         <li>Direct Revit integration</li>
-                        <li>80% reduction in review time</li>
+                        <li>90% reduction in review time</li>
                     </ul>
                     <div class="action-buttons">
                         <button class="action-btn business-case-btn" onclick="openBusinessCase()">
@@ -58,7 +58,7 @@ const slideContents = {
                     <div class="laptop">
                         <div class="laptop-screen">
                             <video class="laptop-video" controls muted>
-                                <source src="ACM_EC_ArchFinish.mp4" type="video/mp4">
+                                <source src="videos/ACM_EC_ArchFinish.mp4" type="video/mp4">
                                 Your browser does not support the video element.
                             </video>
                         </div>
@@ -70,10 +70,10 @@ const slideContents = {
                     <h3>Smart Material Application</h3>
                     <p>Automated system for applying and managing architectural finishes in BIM models.</p>
                     <ul class="feature-list">
-                        <li>Rule-based automatic application</li>
-                        <li>Centralized material library</li>
-                        <li>Automatic quantity calculation</li>
-                        <li>Specification synchronization</li>
+                        <li>Room-based automatic application</li>
+                        <li>Easy material assigment</li>
+                        <li>Avoid manual process</li>
+                        <li>Multiple filters for rooms and wall finishes</li>
                     </ul>
                 </div>
             </div>
@@ -86,7 +86,7 @@ const slideContents = {
                     <div class="laptop">
                         <div class="laptop-screen">
                             <video class="laptop-video" controls muted>
-                                <source src="Videos/ACM_EC_Voids.mp4" type="video/mp4">
+                                <source src="videos/ACM_EC_Voids.mp4" type="video/mp4">
                                 Your browser does not support the video element.
                             </video>
                         </div>
@@ -101,7 +101,7 @@ const slideContents = {
                         <li>Prevent clash conflicts</li>
                         <li>Intelligent void generation</li>
                         <li>Firestop automated location</li>
-                        <li>Voids for ducts, cabetray, busway and pipes on walls and floors</li>
+                        <li>Voids for ducts, cabletray, busway and pipes on walls and floors</li>
                     </ul>
                 </div>
             </div>
@@ -114,7 +114,7 @@ const slideContents = {
                 <div class="laptop">
                     <div class="laptop-screen">
                         <video class="laptop-video" controls muted>
-                            <source src="Videos/ACM_EC_DBExcel.mp4" type="video/mp4">
+                            <source src="videos/ACM_EC_DBExcel.mp4" type="video/mp4">
                             Your browser does not support the video element.
                         </video>
                     </div>
@@ -122,7 +122,7 @@ const slideContents = {
                 <div class="laptop-base"></div>
             </div>
             <div class="content-section">
-                <h2>Dictionary DB</h2>
+                <h2>Dictionaries DB</h2>
                 <h3>Data Management System</h3>
                 <p>Bi-directional integration between Revit and Excel for efficient project data management.</p>
                 <ul class="feature-list">
@@ -155,7 +155,7 @@ const slideContents = {
                     <div class="laptop">
                         <div class="laptop-screen">
                             <video class="laptop-video" controls muted>
-                                <source src="Videos/ACM_EC_SheetRevisor.mp4" type="video/mp4">
+                                <source src="videos/ACM_EC_SheetRevisor.mp4" type="video/mp4">
                                 Your browser does not support the video element.
                             </video>
                         </div>
@@ -183,7 +183,7 @@ const slideContents = {
                     <div class="laptop">
                         <div class="laptop-screen">
                             <video class="laptop-video" controls muted>
-                                <source src="Videos/ACM_EC_WEB_BEP_Revisor.mp4" type="video/mp4">
+                                <source src="videos/ACM_EC_WEB_BEP_Revisor.mp4" type="video/mp4">
                                 Your browser does not support the video element.
                             </video>
                         </div>
@@ -195,10 +195,10 @@ const slideContents = {
                     <h3>Cloud Platform</h3>
                     <p>Web version of BEP Checker with extended capabilities and access from anywhere.</p>
                     <ul class="feature-list">
-                        <li>24/7 access from any device</li>
+                        <li>Direct connection with uploaded models</li>
                         <li>Real-time collaboration</li>
                         <li>Project metrics dashboard</li>
-                        <li>BIM 360 integration</li>
+                        <li>BIM 360/ACC integration</li>
                     </ul>
                 </div>
             </div>
@@ -211,7 +211,7 @@ const slideContents = {
                     <div class="laptop">
                         <div class="laptop-screen">
                             <video class="laptop-video" controls muted>
-                                <source src="Videos/ACM_EC_DigitalTwins.mp4" type="video/mp4">
+                                <source src="videos/ACM_EC_DigitalTwins.mp4" type="video/mp4">
                                 Your browser does not support the video element.
                             </video>
                         </div>
@@ -224,9 +224,8 @@ const slideContents = {
                     <p>Integration of BIM models with IoT sensors to create real-time digital twins.</p>
                     <ul class="feature-list">
                         <li>Real-time monitoring</li>
-                        <li>AI predictive analytics</li>
-                        <li>Preventive maintenance</li>
-                        <li>Energy optimization</li>
+                        <li>Preventive maintenance *</li>
+                        <li>Energy optimization *</li>
                     </ul>
                 </div>
             </div>
@@ -239,15 +238,9 @@ const slideContents = {
                     <h2>Thank You!</h2>
                     <p>For your attention and interest in our digital solutions</p>
                     <div class="contact-info">
-                        <p><strong>AECOM Digital Team</strong></p>
-                        <p>digital@aecom.com</p>
-                        <p>+1 (555) 123-4567</p>
-                    </div>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fas fa-globe"></i></a>
-                    </div>
+                        <p><strong>AECOM EC Team</strong></p>
+                        <p>bayron.cuesta@aecom.com / christian.sarmiento@aecom.com</p>
+                    </div>                    
                 </div>
             </div>
         `

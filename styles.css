@@ -62,6 +62,12 @@ body {
     height: auto;
     margin-bottom: -50px;
 }
+.ec-plus-logo {
+    align-items: center;
+    width: 300px;
+    height: auto;
+    
+}
 .intro-logo {
     font-size: 120px;
     font-weight: 300;
