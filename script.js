@@ -136,12 +136,8 @@ const slideContents = {
                                 <li>OmniClass Table 23 - Products</li>
                                 <li>Assembly Code</li>
                                 <li>Keynote</li>
-                                <li>Type/Instance Description</li>
                                 <li>Material properties (kg/ml, density, etc.)</li>
-                                <li>Manufacturer data</li>
-                                <li>Cost information</li>
-                                <li>Custom shared parameters</li>
-                                <li>Project/Global parameters</li>
+                                <li>Manufacturer data</li>                                
                                 <li>URL links and specifications</li>
                             </ul>
                         </li>

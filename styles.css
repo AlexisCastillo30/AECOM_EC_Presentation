@@ -40,7 +40,28 @@ body {
     text-align: center;
     animation: fadeInUp 1s ease;
 }
+.intro-logos {
+    display: flex;
+    flex-direction: column;    
+    gap: 60px;
+    margin-bottom: 80px;
+}
 
+.aecom-logo {
+    position: absolute;
+    top: 40px;
+    right: 80px ;
+    width: 130px;
+    height: auto;
+    animation: fadeInUp 1s ease;
+}
+
+.ec-logo {
+    align-items: center;
+    width: 350px;
+    height: auto;
+    margin-bottom: -50px;
+}
 .intro-logo {
     font-size: 120px;
     font-weight: 300;
