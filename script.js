@@ -58,7 +58,7 @@ const slideContents = {
                     <div class="laptop">
                         <div class="laptop-screen">
                             <video class="laptop-video" controls muted>
-                                <source src="DigitalTwins_Example.mp4" type="video/mp4">
+                                <source src="videos/ACM_EC_ArchFinish.mp4" type="video/mp4">
                                 Your browser does not support the video element.
                             </video>
                         </div>
@@ -86,7 +86,7 @@ const slideContents = {
                     <div class="laptop">
                         <div class="laptop-screen">
                             <video class="laptop-video" controls muted>
-                                <source src="DigitalTwins_Example.mp4" type="video/mp4">
+                                <source src="videos/ACM_EC_Voids.mp4" type="video/mp4">
                                 Your browser does not support the video element.
                             </video>
                         </div>
@@ -114,7 +114,7 @@ const slideContents = {
                 <div class="laptop">
                     <div class="laptop-screen">
                         <video class="laptop-video" controls muted>
-                            <source src="DigitalTwins_Example.mp4" type="video/mp4">
+                            <source src="videos/ACM_EC_DBExcel.mp4" type="video/mp4">
                             Your browser does not support the video element.
                         </video>
                     </div>
@@ -159,7 +159,7 @@ const slideContents = {
                     <div class="laptop">
                         <div class="laptop-screen">
                             <video class="laptop-video" controls muted>
-                                <source src="DigitalTwins_Example.mp4" type="video/mp4">
+                                <source src="videos/ACM_EC_SheetRevisor.mp4" type="video/mp4">
                                 Your browser does not support the video element.
                             </video>
                         </div>
@@ -187,7 +187,7 @@ const slideContents = {
                     <div class="laptop">
                         <div class="laptop-screen">
                             <video class="laptop-video" controls muted>
-                                <source src="DigitalTwins_Example.mp4" type="video/mp4">
+                                <source src="videos/ACM_EC_WEB_BEP_Revisor.mp4" type="video/mp4">
                                 Your browser does not support the video element.
                             </video>
                         </div>
@@ -215,7 +215,7 @@ const slideContents = {
                     <div class="laptop">
                         <div class="laptop-screen">
                             <video class="laptop-video" controls muted>
-                                <source src="DigitalTwins_Example.mp4" type="video/mp4">
+                                <source src="videos/ACM_EC_DigitalTwins.mp4" type="video/mp4">
                                 Your browser does not support the video element.
                             </video>
                         </div>
